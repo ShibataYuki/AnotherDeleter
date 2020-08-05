@@ -231,7 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stateMachine:
     moveState:
-      runSpeed: 50
+      runSpeed: 5
 --- !u!54 &147481724
 Rigidbody:
   m_ObjectHideFlags: 0

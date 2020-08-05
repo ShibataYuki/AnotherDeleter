@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace AnotherDeleter {
+namespace AnotherDeleter {   
     public interface IState {
 
         /// <summary>

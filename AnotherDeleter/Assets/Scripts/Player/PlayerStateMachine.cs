@@ -12,9 +12,9 @@ namespace AnotherDeleter.GameScene {
     public class PlayerStateMachine : StateMachine {
         // 各ステートのインスタンス    
         [SerializeField]
-        readonly PlayerIdleState idleState = new PlayerIdleState();
+        PlayerIdleState idleState = new PlayerIdleState();
         [SerializeField]
-        readonly PlayerMoveState moveState = new PlayerMoveState();
+        PlayerMoveState moveState = new PlayerMoveState();
 
         /// <summary>
         /// MonovihaberのStartで呼んでほしい初期化処理
